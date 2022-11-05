@@ -1,0 +1,202 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: black;
+}
+
+.button1{
+    color: white;
+    text-decoration: none;
+    font-size: 1.625em;
+    font-weight: 300;
+    display: inline-block;
+    margin-top: 10em;
+    min-width: 7em ;
+    background: rgb(211, 10, 10);
+    text-align: center;
+    margin: .5em 15%;
+    padding: .6em; 
+ }
+
+
+
+header{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/f669a8f4-de1e-49d7-bb56-c9bd1f4a9069/fbe6b535-b521-4096-929b-5bf1d6a7f700/NG-en-20221031-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header .header-container{
+    height: 75vh;
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+}
+
+header .header-container .first-child {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 10%;
+    padding: 1.5em 3em 0 3em;
+}
+
+header .header-container .first-child p{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    color: rgb(216, 24, 24);
+    font-weight: bold;
+    margin: 0;
+ }
+header .header-container .first-child a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: rgb(204, 19, 19);
+    padding: .4em 0.1em 0 ;
+    text-align: center;
+    display: block;
+    width: 5em;
+    height: 1.5em;
+    border-radius: 10%;  
+ }
+
+ header .header-container .second-child {
+    margin: 4em auto 0 auto;
+    text-align: center;
+ }
+ 
+ header .header-container .second-child p {
+    font-size: 1.625em;
+    font-weight: 320;
+    margin-bottom: 0.4em;
+    letter-spacing: 0.1em;
+ }
+ header .header-container .second-child h1 {
+    font-size: 4.18rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1em;
+ }
+ header .header-container .second-child h4 {
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-top: 0em;
+ }
+
+ header .header-container .second-child .button1{
+    color: white;
+    text-decoration: none;
+    font-size: 1.625em;
+    font-weight: 300;
+    display: inline-block;
+    margin-top: 10em;
+    min-width: 7em ;
+    background: rgb(211, 10, 10);
+    text-align: center;
+    margin: .5em 15%;
+    padding: .6em; 
+ }
+
+ section{
+    background-color: black;
+    color: white;
+    border-top: .2em solid rgb(255, 255, 255, 0.3);
+    border-bottom: .4em solid rgb(255, 255, 255, 0.3);
+    padding-top: 2em;
+    padding-bottom: 2em;
+ }
+ 
+ section .section-container{
+    width: 80%; 
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    /* margin: auto;
+    padding: 1em 0 0; 
+    text-align: center;
+    font-size: 1.2em; */
+ }
+
+ section .section-container div{
+    max-width: 40%;
+ }  
+ section .section-container h4{
+    font-size: 1.625em;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+
+ }  
+ section .section-container p{
+    font-size: 1.5em;
+    font-weight: 400;
+ }  
+ 
+ /* FAQ */
+
+.faq{
+    background: black;
+    padding: 2% 0;
+    margin: 0 30%;
+ }
+ .faq h4{
+    text-align: center;
+    padding: 0 10%;
+    font-size: 2.45em;
+ }
+ .faq a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 1.4em;
+}
+.faq span{
+     font-size: 1.4em;
+     font-weight: 300;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .faq div{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2em 5%;
+    background: rgb(43, 43, 42);
+    margin: 2% 0;
+ }
+
+
+
+
+
+ /* Footer */
+ footer{
+    background: black;
+    font-size: small;
+    margin-top: 6em;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: rgb(158, 156, 156);
+ }
+ footer .foot{
+    display: flex;
+    justify-content: space-around;
+ }
+ footer a {
+    color: rgb(158, 156, 156);
+    display: block !important;
+    text-decoration: none;
+    margin-bottom: 1.3em;
+ }
+
+ footer a:hover{
+    text-decoration: underline;
+ }
